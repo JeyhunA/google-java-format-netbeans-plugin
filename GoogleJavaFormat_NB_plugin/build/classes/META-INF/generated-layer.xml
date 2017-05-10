@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Refactoring">
+            <file name="JavaCodeStyle-GoogleStyle.instance">
+                <!--main.JavaFileGJC-->
+                <attr bundlevalue="main.Bundle#CTL_GoogleStyle" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.openide.cookies.EditorCookie"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="main.JavaFileGJC"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="main/html_x16.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="main-ProjectSrcGJC.instance">
+                <!--main.ProjectSrcGJC-->
+                <attr bundlevalue="main.Bundle#CTL_ProjectSrcGJC" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.netbeans.api.project.Project"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="main.ProjectSrcGJC"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="main/ux-design_x16.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Refactoring">
+            <file name="JavaCodeStyle-GoogleStyle.shadow">
+                <!--main.JavaFileGJC-->
+                <attr name="originalFile" stringvalue="Actions/Refactoring/JavaCodeStyle-GoogleStyle.instance"/>
+                <attr intvalue="-100" name="position"/>
+            </file>
+            <file name="JavaCodeStyle-GoogleStyle-separatorAfter.instance">
+                <!--main.JavaFileGJC-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="-50" name="position"/>
+            </file>
+            <file name="main-ProjectSrcGJC.shadow">
+                <!--main.ProjectSrcGJC-->
+                <attr name="originalFile" stringvalue="Actions/Refactoring/main-ProjectSrcGJC.instance"/>
+                <attr intvalue="-500" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Build">
+            <file name="JavaCodeStyle-GoogleStyle.shadow">
+                <!--main.JavaFileGJC-->
+                <attr name="originalFile" stringvalue="Actions/Refactoring/JavaCodeStyle-GoogleStyle.instance"/>
+                <attr intvalue="600" name="position"/>
+            </file>
+            <file name="JavaCodeStyle-GoogleStyle-separatorAfter.instance">
+                <!--main.JavaFileGJC-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="650" name="position"/>
+            </file>
+            <file name="main-ProjectSrcGJC.shadow">
+                <!--main.ProjectSrcGJC-->
+                <attr name="originalFile" stringvalue="Actions/Refactoring/main-ProjectSrcGJC.instance"/>
+                <attr intvalue="-20" name="position"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

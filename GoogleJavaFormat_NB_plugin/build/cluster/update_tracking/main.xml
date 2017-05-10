@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="main">
+    <module_version install_time="1490539066200" last="true" origin="installer" specification_version="1.0">
+        <file crc="142132898" name="config/Modules/main.xml"/>
+        <file crc="2207930553" name="modules/ext/commons-lang3-3.3.2.jar"/>
+        <file crc="3241766837" name="modules/ext/google-java-format-1.3-all-deps.jar"/>
+        <file crc="2761444284" name="modules/main.jar"/>
+    </module_version>
+</module>
